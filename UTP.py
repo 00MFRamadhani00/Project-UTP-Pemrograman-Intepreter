@@ -1,1 +1,1 @@
-Print("Selamat datang di Toko Komputer Kece")
+print("Selamat datang di Toko Komputer Kece")
