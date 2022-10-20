@@ -96,10 +96,16 @@ while True:
                 Nomor_ID = int(input("Masukan nomor ID member: "))
                 if Nomor_ID in listID:
                     Diskon = 0.9
+                else :
+                    print("Nomor ID tidak terdaftar")
 
             except:
                 print("TypeError : Masukan Nomor ID hanya dengan integer")
                 Nomor_ID = int(input("Masukan nomor ID member (Percobaan terakhir): "))
+                if Nomor_ID in listID:
+                    Diskon = 0.9
+                else :
+                    print("Nomor ID tidak terdaftar")
             
 
             for i in belanjaan:
