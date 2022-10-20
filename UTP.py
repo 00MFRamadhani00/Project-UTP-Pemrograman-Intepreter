@@ -24,23 +24,25 @@ while True:
         for i in range(berapa):
             part = int(input("Silahkan Pilih : "))
             belanjaan.append(thisdict[part])
-        
+        #Ntar disini pake collection isinya part computer
+
         print(belanjaan)
         
-        
-
     elif pilih == 2 :
         print("Dua")
         '''
         '''
+
     elif pilih == 3 :
         print("Tiga")
         '''
         '''
+
     elif pilih == 4 :
         print("Terima Kasih Telah Menggunakan Program Kami")
 
-        print("Atas Nama :", nama, "Memesan", belanjaan)
+        print("Atas Nama :", nama.upper(), "\nMemesan", belanjaan)
         break
+
     else:
         print("Maaf Pilihan Tidak Tersedia")
