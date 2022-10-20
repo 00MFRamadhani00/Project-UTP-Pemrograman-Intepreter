@@ -6,7 +6,7 @@ print("Selamat datang di Toko Komputer Kece")
 nama = str(input("Masukkan Nama Anda : "))
 
 belanjaan = []
-thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor"}
+thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor", 5:"PSU"}
 laptopdict = {1:"Asus", 2:"Acer", 3:"HP", 4:"Lenovo", 5:"Dell"}
 
 while True:
