@@ -8,25 +8,18 @@ while True:
     \t2. Laptop
     \t3. Service
     \t4. Exit Program''')
-    pilih = input("Masukan Pilihan Anda : ")
+    pilih = int(input("Masukan Pilihan Anda : "))
 
     if pilih == 1 :
-        while next == True:
-            print("Part apa yang anda cari?")
-            print('''1. VGA
-            2. Motherboard
-            3. RAM
-            4. Processor
-            5. ''')
-            part = eval(input("Silahkan Pilih : "))
-            #Ntar disini pake collection isinya part computer
-            next = input('''Ada lagi?
-            Y untuk lanjut''')
-            if next == "Y":
-                next == True
-            else:
-                next == False
-            #Entah bagaimana ini tidak mau terbaca *emot batu*
+        print("Part apa yang anda cari?")
+        print('''1. VGA
+        2. Motherboard
+        3. RAM
+        4. Processor
+        5. ''')
+        part = int(input("Silahkan Pilih : "))
+        #Ntar disini pake collection isinya part computer
+        
         
 
     elif pilih == 2 :
