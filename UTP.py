@@ -24,8 +24,7 @@ while True:
         for i in range(berapa):
             part = int(input("Silahkan Pilih : "))
             belanjaan.append(thisdict[part])
-        #Ntar disini pake collection isinya part computer
-
+        
         print(belanjaan)
         
         
