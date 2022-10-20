@@ -1,6 +1,3 @@
-from ast import Try
-
-
 print("Selamat datang di Toko Komputer Kece")
 
 nama = str(input("Masukkan Nama Anda : "))
@@ -8,6 +5,7 @@ nama = str(input("Masukkan Nama Anda : "))
 belanjaan = []
 thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor", 5:"PSU"}
 laptopdict = {1:"Asus", 2:"Acer", 3:"HP", 4:"Lenovo", 5:"Dell"}
+servisdict = {1:"Instal Ulang", 2:"Flash BIOS", 3:"Ganti Keyboard Laptop", 4:"Ganti LCD", 5:"Ganti Thermal Paste", 6:"Ganti RAM", 7:"Ganti Hardisk"}
 
 while True:
     print('''\tApa yang anda cari?
@@ -54,7 +52,7 @@ while True:
         print('''
         1. Instal Ulang         6. Ganti RAM
         2. Flash BIOS           7. Ganti Hardisk
-        3. Ganti Keyboard       
+        3. Ganti Keyboard Laptop       
         4. Ganti LCD
         5. Ganti Thermal Paste
         ''')
@@ -62,7 +60,7 @@ while True:
 
         for i in range(berapa):
             part = int(input("Silahkan Pilih : "))
-            belanjaan.append(laptopdict[part])
+            belanjaan.append(servisdict[part])
 
         print(belanjaan)
 
