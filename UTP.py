@@ -11,14 +11,22 @@ while True:
     pilih = int(input("Masukan Pilihan Anda : "))
 
     if pilih == 1 :
-        print("Part apa yang anda cari?")
+        
         print('''1. VGA
         2. Motherboard
         3. RAM
         4. Processor
         5. ''')
-        part = int(input("Silahkan Pilih : "))
+        berapa = eval(input("Berapa barang yang ingin anda beli?"))
+        belanjaan = []
+        thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor"}
+
+        for i in range(berapa):
+            part = int(input("Silahkan Pilih : "))
+            belanjaan.append(thisdict[part])
         #Ntar disini pake collection isinya part computer
+
+        print(belanjaan)
         
         
 
