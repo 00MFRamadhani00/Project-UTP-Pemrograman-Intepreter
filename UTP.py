@@ -1,6 +1,12 @@
+from ast import Try
+
+
 print("Selamat datang di Toko Komputer Kece")
 
 nama = str(input("Masukkan Nama Anda : "))
+
+belanjaan = []
+thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor"}
 
 while True:
     print('''\tApa yang anda cari?
@@ -18,8 +24,6 @@ while True:
         4. Processor
         5. ''')
         berapa = eval(input("Berapa barang yang ingin anda beli?"))
-        belanjaan = []
-        thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor"}
 
         for i in range(berapa):
             part = int(input("Silahkan Pilih : "))
