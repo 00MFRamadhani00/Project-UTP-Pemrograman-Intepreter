@@ -40,6 +40,8 @@ while True:
         '''
     elif pilih == 4 :
         print("Terima Kasih Telah Menggunakan Program Kami")
+
+        print("Atas Nama :", nama, "Memesan", belanjaan)
         break
     else:
         print("Maaf Pilihan Tidak Tersedia")
