@@ -2,6 +2,10 @@ print("Selamat datang di Toko Komputer Kece")
 
 nama = str(input("Masukkan Nama Anda : "))
 
+print("==================================")
+print("======== Hallo", nama, "==========")
+print("==================================")
+
 total = 0
 belanjaan = []
 thisdict = {1:"VGA", 2:"Motherboard", 3:"RAM", 4:"Processor", 5:"PSU"}
