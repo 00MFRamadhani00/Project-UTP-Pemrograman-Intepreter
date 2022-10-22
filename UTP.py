@@ -101,7 +101,7 @@ while True:
         print()
         ID = str(input("Apakah anda memiliki ID member?(Y/N)"))
 
-        if ID == "Y":
+        if ID == "Y" or ID == "y":
             
             try:
                 Nomor_ID = int(input("Masukan nomor ID member: "))
