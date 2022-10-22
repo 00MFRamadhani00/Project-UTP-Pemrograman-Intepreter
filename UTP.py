@@ -86,7 +86,7 @@ while True:
 
         for i in range(berapa):
             part = int(input("Silahkan Pilih : "))
-            if part < 1 or part > 5:
+            if part < 1 or part > 7:
                 print("Maaf Pilihan Tidak Tersedia")
             else:
                 belanjaan.append(servisdict[part])
